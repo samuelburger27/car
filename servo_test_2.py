@@ -18,4 +18,4 @@ time.sleep(2)
 servo.angle = -45
 print("Stoping !!")
 time.sleep(2)
-servo.mid()
+servo.angle = 45
