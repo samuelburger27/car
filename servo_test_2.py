@@ -1,10 +1,7 @@
 import gpiozero
 import time
 
-servo = gpiozero.AngularServo(
-    14,
-    0,
-)
+servo = gpiozero.AngularServo(14)
 
 print("STARting")
 time.sleep(2)
