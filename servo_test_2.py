@@ -3,7 +3,7 @@ import time
 
 servo = gpiozero.AngularServo(
     14,
-    90,
+    0,
 )
 
 print("STARting")
