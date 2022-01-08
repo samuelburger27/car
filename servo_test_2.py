@@ -7,8 +7,10 @@ print("STARting")
 time.sleep(2)
 servo.angle = 0
 time.sleep(2)
-servo.angle = 45
+servo.angle = 90
 print("YAAA")
 time.sleep(2)
-servo.angle = 0
+servo.angle = -90
 print("Stoping !!")
+time.sleep(2)
+servo.angle = 0
