@@ -4,7 +4,7 @@ import time
 # 0.45
 servo = gpiozero.AngularServo(
     14,
-    initial_angle=-15,
+    initial_angle=0,
     min_angle=-90,
     max_angle=90,
     min_pulse_width=(1 - 0.45) / 1000,
