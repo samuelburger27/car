@@ -1,6 +1,6 @@
+from gpiozero.pins.pigpio import PiGPIOFactory
 import gpiozero
 import time
-from gpiozero.pins.pigpio import PiGPIOFactory
 
 # 0.45
 factory = PiGPIOFactory
