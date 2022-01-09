@@ -5,8 +5,8 @@ from gpiozero.pins.pigpio import PiGPIOFactory
 # 0.45
 factory = PiGPIOFactory
 servo = gpiozero.AngularServo(
-    14,
     pin_factory=factory,
+    pin= 14
     initial_angle=0,
     min_angle=-90,
     max_angle=90,
