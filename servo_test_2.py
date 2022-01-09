@@ -13,7 +13,7 @@ time.sleep(2)
 servo.angle = 25
 print("YAAA")
 time.sleep(2)
-servo.angle = -25
+servo.angle = -50
 print("Stoping !!")
 time.sleep(2)
 servo.angle = 25
