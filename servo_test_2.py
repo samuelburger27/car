@@ -15,10 +15,10 @@ servo = gpiozero.AngularServo(
 
 print("STARting")
 time.sleep(4)
-servo.angle = 25
+servo.angle = 30
 print("YAAA")
 time.sleep(2)
-servo.angle = -25
+servo.angle = -30
 print("Stoping !!")
 time.sleep(2)
 print("BABZ girl")
