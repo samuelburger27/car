@@ -8,7 +8,7 @@ servo = gpiozero.AngularServo(
     min_angle=-15,
     max_angle=15,
     min_pulse_width=(1) / 1000,
-    max_pulse_width=20 / 1000,
+    max_pulse_width=2 / 1000,
 )
 
 print("STARting")
