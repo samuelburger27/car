@@ -3,7 +3,7 @@ import gpiozero
 import time
 
 # 0.45
-factory = PiGPIOFactory(host="192.168.1.43", port="5900")
+factory = PiGPIOFactory(host="192.168.1.43")
 servo = gpiozero.AngularServo(
     pin_factory=factory,
     pin=14,
