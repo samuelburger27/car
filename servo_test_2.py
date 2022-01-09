@@ -4,18 +4,18 @@ import time
 servo = gpiozero.AngularServo(
     14,
     initial_angle=0,
-    min_angle=-45,
-    max_angle=45,
+    min_angle=-30,
+    max_angle=30,
     min_pulse_width=(1 - 0.45) / 1000,
     max_pulse_width=2.45 / 1000,
 )
 
 print("STARting")
 time.sleep(4)
-servo.angle = 25
+servo.angle = 15
 print("YAAA")
 time.sleep(2)
-servo.angle = -25
+servo.angle = -15
 print("Stoping !!")
 time.sleep(2)
 print("BABZ girl")
