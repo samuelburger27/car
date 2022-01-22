@@ -2,7 +2,7 @@ import gpiozero
 import time
 import curses
 
-wheels = gpiozero.Robot(left=(25, 8), right=(1, 7))
+wheels = gpiozero.Robot(left=(25, 21), right=(1, 7))
 
 servo = gpiozero.AngularServo(
     pin=14,
