@@ -16,6 +16,7 @@ def loadout():
         elif request.form['submit_button'] == 'Do Something Else':
             print("SOMETHING ELSE")
         else:
+            print("NOOONE")
             pass  # unknown
     elif request.method == 'GET':
         return render_template('loadout.html')
