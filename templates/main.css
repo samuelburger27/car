@@ -1,35 +1,19 @@
 body {
-    background: var(--bg);
-    color: var(--fontColor);
-    font-family: helvetica;
-  }
-
-
-ul {
-    font-family: helvetica;
+background-color: crimson;
 }
-li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
-  
-  #msg {
-    font-family: monospace;
-  }
-
-  :root {
-    --green: #00FF00;
-    --white: #FFFFFF;
-    --black: #000000;
-  }
-  .light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-  }
-  .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-  }
+h1{
+  color: blueviolet;
+} 
+form{
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+form{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
