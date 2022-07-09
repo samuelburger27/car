@@ -18,4 +18,7 @@ def start_car():
     return 'Starting'
 
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=True, threaded=True)
+
 print('DONE')
