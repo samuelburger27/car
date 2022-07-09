@@ -1,10 +1,10 @@
 
 import imp
+from operator import imod
 from flask import Flask
 from markupsafe import escape
 from flask import render_template
-from requests import request
-
+from flask import request
 app = Flask(__name__)
 
 
